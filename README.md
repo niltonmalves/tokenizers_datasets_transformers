@@ -108,7 +108,7 @@ https://huggingface.co/docs/transformers/training
 
 # Fine-tune a pretrained model
 
-![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
+![https://colab.research.google.com/drive/1pIbLlkFOu-fIXwmcSX4JDNG_-G3trVBG?authuser=2&hl=pt_BR#scrollTo=6MNbsrkX14U4](https://colab.research.google.com/assets/colab-badge.svg)
 
 ![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)
 
