@@ -69,9 +69,9 @@ The goal of the tutorials are to help new users build up a basic understanding o
 
 ## **intro_transformers.ipynb**
 
+https://github.com/huggingface/transformers
+
 State-of-the-art Machine Learning for PyTorch, TensorFlow and JAX.
-
-
 
 🤗 Transformers provides APIs to easily download and train state-of-the-art pretrained models. Using pretrained models can reduce your compute costs, carbon footprint, and save you time from training a model from scratch. The models can be used across different modalities such as:
 
@@ -79,3 +79,46 @@ State-of-the-art Machine Learning for PyTorch, TensorFlow and JAX.
 - 🖼️ Images: image classification, object detection, and segmentation.
 - 🗣️ Audio: speech recognition and audio classification.
 - 🐙 Multimodal: table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.
+
+
+
+## **intro_transformer_Preprocess.ipynb**
+
+https://huggingface.co/docs/transformers/preprocessing
+
+# Preprocess
+
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
+
+![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)
+
+Before you can use your data in a model, the data needs to be processed into an acceptable format for the model. A model does not understand raw text, images or audio. These inputs need to be converted into numbers and assembled into tensors. In this tutorial, you will:
+
+- Preprocess textual data with a tokenizer.
+- Preprocess image or audio data with a feature extractor.
+- Preprocess data for a multimodal task with a processor.
+
+## **intro_fine_tuning.ipynb**
+
+https://huggingface.co/docs/transformers/training
+
+[intro_fine_tuning.ipynb](https://github.com/niltonmalves/tokenizers_datasets_transformers/blob/main/intro_fine_tuning.ipynb)
+
+
+
+# Fine-tune a pretrained model
+
+![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)
+
+![Open In Studio Lab](https://studiolab.sagemaker.aws/studiolab.svg)
+
+There are significant benefits to using a pretrained model. It reduces computation costs, your carbon footprint, and allows you to use state-of-the-art models without having to train one from scratch. 🤗 Transformers provides access to thousands of pretrained models for a wide range of tasks. When you use a pretrained model, you train it on a dataset specific to your task. This is known as fine-tuning, an incredibly powerful training technique. In this tutorial, you will fine-tune a pretrained model with a deep learning framework of your choice:
+
+- Fine-tune a pretrained model with 🤗 Transformers [Trainer](https://huggingface.co/docs/transformers/v4.17.0/en/main_classes/trainer#transformers.Trainer).
+
+- Fine-tune a pretrained model in TensorFlow with Keras.
+
+- Fine-tune a pretrained model in native PyTorch.
+
+  
+
