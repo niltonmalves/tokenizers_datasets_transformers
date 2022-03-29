@@ -46,3 +46,36 @@ Trainer capable of training a BPE model
 <h5>Intro_Datasets.ipynb</h5>
 ------
 
+https://huggingface.co/docs/datasets/v1.13.0/quickstart.html
+
+The quick start is intended for developers who are ready to dive in to the code, and see an end-to-end example of how they can integrate 🤗 Datasets into their model training workflow. 
+
+https://huggingface.co/docs/datasets/tutorial
+
+# Overview
+
+#### Welcome to the 🤗 Datasets tutorial!
+
+The goal of the tutorials are to help new users build up a basic understanding of 🤗 Datasets. You will learn to:
+
+- Setup a virtual environment and install 🤗 Datasets.
+- Load a dataset.
+- Explore what’s inside a Dataset object.
+- Use a dataset with PyTorch and TensorFlow.
+- Evaluate your model predictions with a metric.
+- Easily upload a dataset to the Hugging Face Hub.
+
+
+
+## **intro_transformers.ipynb**
+
+State-of-the-art Machine Learning for PyTorch, TensorFlow and JAX.
+
+
+
+🤗 Transformers provides APIs to easily download and train state-of-the-art pretrained models. Using pretrained models can reduce your compute costs, carbon footprint, and save you time from training a model from scratch. The models can be used across different modalities such as:
+
+- 📝 Text: text classification, information extraction, question answering, summarization, translation, and text generation in over 100 languages.
+- 🖼️ Images: image classification, object detection, and segmentation.
+- 🗣️ Audio: speech recognition and audio classification.
+- 🐙 Multimodal: table question answering, optical character recognition, information extraction from scanned documents, video classification, and visual question answering.
